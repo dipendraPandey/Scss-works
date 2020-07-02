@@ -1,0 +1,29 @@
+body {
+  background: #272727;
+  font-weight: 400;
+  color: #fff;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .main_paragraph {
+  color: #ff652f;
+  font-weight: 400;
+}
+
+.main .main_paragraph:hover {
+  color: greenyellow;
+}
+
+.main p {
+  color: yellow;
+  font-weight: 700;
+}
+
+.main p:hover {
+  color: #ff652f;
+}
+/*# sourceMappingURL=main.css.map */

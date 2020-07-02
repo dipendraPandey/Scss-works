@@ -1,0 +1,32 @@
+@import './variables';
+@function weight($weight-name){
+    @return map-get($font-weight, $weight-name)
+}
+body { 
+    background: $primary-color;
+    font-weight: weight(regular);
+    color:$text-color;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+
+    #{&}_paragraph{
+        color: $accent-color;
+        font-weight: weight(regular);
+
+        &:hover{
+            color: greenyellow;
+        }
+    }
+
+    p {
+        color:yellow;
+        font-weight: weight(bold);
+
+        &:hover{
+            color:$accent-color;
+        }
+    }
+}
